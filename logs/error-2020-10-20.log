@@ -1,0 +1,6 @@
+[2020-10-20 17:40:05,053] [views.py:31] [views:submit] [ERROR]- 错误的信息为(1264, "Out of range value for column 'ipone' at row 1")
+[2020-10-20 17:44:26,913] [views.py:31] [views:submit] [ERROR]- 错误的信息为(1264, "Out of range value for column 'ipone' at row 1")
+[2020-10-20 20:39:16,370] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'centigrade'
+[2020-10-20 20:44:45,265] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'centigrade'
+[2020-10-20 20:46:08,500] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'encode'
+[2020-10-20 20:47:22,066] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'encode'

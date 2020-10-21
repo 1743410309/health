@@ -1,0 +1,88 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>健康报备项目</title>
+    <script src="{% static 'js/jquery-1.12.4.min.js'%}"></script>
+{#    <link rel="stylesheet" href=""  background-image:url(image path) >#}
+    <style>
+    .box{
+         width:500px;
+        height: 600px;
+         margin: 0 auto;
+           }
+        .bd {
+          height: 100%;
+          width: 100%;
+          background: url({% static 'image/timg.jpg'%}) no-repeat;
+          background-size: cover;
+          position: absolute;
+          overflow: hidden;
+}
+</style>
+</head>
+<body class="bd">
+
+
+<div class="box">
+    {% csrf_token %}
+    <form action="" >
+            <label for="">姓名：</label><br>
+            <input type="text" id="username"  style="width:400px;height:30px;"><br>
+            <label for=""> 年龄：</label><br>
+            <input type="text"  style="width:400px;height:30px;" id="age"><br>
+            <label for=""> 地理位置：</label><br>
+            <input type="text" style="width:400px;height:30px;" id="location"><br>
+            <label for=""> 摄氏度：</label><br>
+            <input type="text"  style="width:400px;height:30px;" id="centigrade" placeholder="℃"><br>
+            <label for="">手机号：</label><br>
+            <input type="text"  style="width:400px;height:30px;" id="ipone"><br>
+            <label for=""> 时间：</label><br>
+             <input type="text" id="showtime" style="width:400px;height:30px;"  placeholder="可不填写 默认本地时间"><br>
+            <button type="button" id="sumbit" style="width:100px;height:30px;">提交</button>
+
+    </form>
+    <button type="button" id="zhanshi" style="width:100px;height:30px;"><a href={% url 'zhanshi'%}>数据展示</a></button>
+
+</div>
+
+
+</body>
+<script>
+    $(document).ready(function () {
+        $("#sumbit").click(function () {
+
+            var username = $("#username").val();
+
+            var age = $("#age").val();
+
+            var location = $("#location").val();
+
+            var centigrade = $("#centigrade").val();
+
+            var ipone = $("#ipone").val();
+
+            var showtime = $("#showtime").val();
+
+
+            $.post("{% url 'sumbit' %}", {csrfmiddlewaretoken: '{{ csrf_token }}',
+                'username': username,
+                'age':age,
+                'location': location,
+                'centigrade': centigrade,
+                'ipone':ipone,
+                'showtime':showtime
+
+            }, function (ret) {
+                alert(ret)
+            })
+        });
+    });
+
+</script>
+
+
+</html>
+

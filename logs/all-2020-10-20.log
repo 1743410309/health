@@ -1,0 +1,88 @@
+[2020-10-20 16:35:51,012] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1471
+[2020-10-20 16:35:51,266] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/timg.jpg
+[2020-10-20 16:35:51,271] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/timg.jpg HTTP/1.1" 404 77
+[2020-10-20 16:36:14,879] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1471
+[2020-10-20 16:36:14,920] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/timg.jpg
+[2020-10-20 16:36:14,922] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/timg.jpg HTTP/1.1" 404 77
+[2020-10-20 16:40:28,777] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1469
+[2020-10-20 16:40:28,810] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/mm.jpg
+[2020-10-20 16:40:28,814] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/mm.jpg HTTP/1.1" 404 77
+[2020-10-20 16:40:34,776] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1469
+[2020-10-20 16:40:34,808] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/mm.jpg
+[2020-10-20 16:40:34,810] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/mm.jpg HTTP/1.1" 404 77
+[2020-10-20 16:46:16,008] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1469
+[2020-10-20 16:46:16,036] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/mm.jpg
+[2020-10-20 16:46:16,038] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/mm.jpg HTTP/1.1" 404 77
+[2020-10-20 16:46:18,196] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1469
+[2020-10-20 16:46:18,234] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/mm.jpg
+[2020-10-20 16:46:18,238] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/mm.jpg HTTP/1.1" 404 77
+[2020-10-20 16:49:31,435] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1496
+[2020-10-20 16:49:31,464] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/image/timg.jpg
+[2020-10-20 16:49:31,465] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/image/timg.jpg HTTP/1.1" 404 77
+[2020-10-20 16:52:30,069] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1496
+[2020-10-20 16:52:30,101] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/image/timg.jpg HTTP/1.1" 200 146138
+[2020-10-20 16:53:25,498] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1496
+[2020-10-20 16:53:27,770] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1496
+[2020-10-20 16:53:29,824] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1496
+[2020-10-20 17:35:05,085] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2338
+[2020-10-20 17:35:05,128] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/js/jquery-1.12.4.min.js
+[2020-10-20 17:35:05,129] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 404 77
+[2020-10-20 17:36:55,656] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2338
+[2020-10-20 17:36:55,690] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/js/jquery-1.12.4.min.js
+[2020-10-20 17:36:55,692] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 404 77
+[2020-10-20 17:37:35,639] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2338
+[2020-10-20 17:37:35,662] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[2020-10-20 17:40:05,043] [views.py:25] [views:submit] [INFO]- 姓名：李三 ,年龄：18,地理位置：山东青岛,温度：36.8,手机号：17862165878,时间：2020-10-20 17:30
+[2020-10-20 17:40:05,053] [views.py:31] [views:submit] [ERROR]- 错误的信息为(1264, "Out of range value for column 'ipone' at row 1")
+[2020-10-20 17:40:05,281] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /sumbit/
+Traceback (most recent call last):
+  File "E:\pythonhuanjing\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pythonhuanjing\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view healthapp.views.submit didn't return an HttpResponse object. It returned None instead.
+[2020-10-20 17:40:05,284] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /sumbit/ HTTP/1.1" 500 16299
+[2020-10-20 17:43:32,003] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2463
+[2020-10-20 17:44:26,906] [views.py:25] [views:submit] [INFO]- 姓名：李三,年龄：18,地理位置：山东省青岛市,温度：36.8,手机号：17862161245,时间：2020-10-20 17:44:00
+[2020-10-20 17:44:26,913] [views.py:31] [views:submit] [ERROR]- 错误的信息为(1264, "Out of range value for column 'ipone' at row 1")
+[2020-10-20 17:44:26,914] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /sumbit/ HTTP/1.1" 200 12
+[2020-10-20 17:55:00,218] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2463
+[2020-10-20 17:55:44,126] [views.py:25] [views:submit] [INFO]- 姓名：李三,年龄：18,地理位置：山东省青岛市,温度：36.5,手机号：178525453214,时间：2020-10-20 14:20:00
+[2020-10-20 17:55:44,273] [views.py:28] [views:submit] [INFO]- 入库成功
+[2020-10-20 17:55:44,274] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /sumbit/ HTTP/1.1" 200 142
+[2020-10-20 17:59:05,786] [views.py:25] [views:submit] [INFO]- 姓名：李四,年龄：19,地理位置：山东省威海市,温度：37.2,手机号：15785754142,时间：2020-10-20 14:25:00
+[2020-10-20 17:59:05,953] [views.py:28] [views:submit] [INFO]- 入库成功
+[2020-10-20 17:59:05,954] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /sumbit/ HTTP/1.1" 200 141
+[2020-10-20 17:59:45,813] [views.py:25] [views:submit] [INFO]- 姓名：人大,年龄：22,地理位置：山东省威海市,温度：36.3,手机号：15785754141,时间：2020-10-20 17:25:00
+[2020-10-20 17:59:45,950] [views.py:28] [views:submit] [INFO]- 入库成功
+[2020-10-20 17:59:45,954] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /sumbit/ HTTP/1.1" 200 141
+[2020-10-20 18:28:23,741] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2579
+[2020-10-20 18:28:25,778] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 137
+[2020-10-20 18:53:22,835] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2579
+[2020-10-20 18:53:24,970] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 1715
+[2020-10-20 18:58:53,864] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2579
+[2020-10-20 19:00:01,949] [views.py:25] [views:submit] [INFO]- 姓名：张三,年龄：60,地理位置：北京海淀区,温度：36.9,手机号：17452514512,时间：2020-10-19 10:25:00
+[2020-10-20 19:00:02,112] [views.py:28] [views:submit] [INFO]- 入库成功
+[2020-10-20 19:00:02,115] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /sumbit/ HTTP/1.1" 200 138
+[2020-10-20 19:04:06,277] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 1979
+[2020-10-20 20:38:11,376] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2579
+[2020-10-20 20:39:02,166] [views.py:25] [views:submit] [INFO]- 姓名：王璐,年龄：23,地理位置：山东省诸城市,温度：36.2,手机号：12385213652,时间：2020-10-14 19:32
+[2020-10-20 20:39:02,336] [views.py:28] [views:submit] [INFO]- 入库成功
+[2020-10-20 20:39:02,338] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /sumbit/ HTTP/1.1" 200 138
+[2020-10-20 20:39:05,363] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2794
+[2020-10-20 20:39:10,927] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2579
+[2020-10-20 20:39:12,391] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2794
+[2020-10-20 20:39:16,370] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'centigrade'
+[2020-10-20 20:39:16,371] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /send_email HTTP/1.1" 200 80
+[2020-10-20 20:43:39,326] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2780
+[2020-10-20 20:44:18,921] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2788
+[2020-10-20 20:44:42,825] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2795
+[2020-10-20 20:44:45,265] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'centigrade'
+[2020-10-20 20:44:45,266] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /send_email HTTP/1.1" 200 80
+[2020-10-20 20:46:07,305] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2795
+[2020-10-20 20:46:08,500] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'encode'
+[2020-10-20 20:46:08,502] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /send_email HTTP/1.1" 200 76
+[2020-10-20 20:47:18,135] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 2579
+[2020-10-20 20:47:20,786] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /zhanshi/ HTTP/1.1" 200 2795
+[2020-10-20 20:47:22,066] [views.py:73] [views:send_email] [ERROR]- 发送邮件失败，错误信息'QuerySet' object has no attribute 'encode'
+[2020-10-20 20:47:22,067] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /send_email HTTP/1.1" 200 76

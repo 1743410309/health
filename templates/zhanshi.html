@@ -1,0 +1,75 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>健康报备项目</title>
+    <script src="{% static 'js/jquery-1.12.4.min.js'%}"></script>
+{#    <link rel="stylesheet" href=""  background-image:url(image path) >#}
+    <style>
+    .box{
+         width:500px;
+        height: 600px;
+         margin: 0 auto;
+           }
+        .bd {
+          height: 100%;
+          width: 100%;
+          background: url({% static 'image/timg.jpg'%}) no-repeat;
+          background-size: cover;
+          position: absolute;
+          overflow: hidden;
+}
+</style>
+</head>
+<body class="bd">
+
+
+<div class="box">
+   {% for message in messages %}
+    <tr>
+        <td>
+            {{ message.id }}
+        </td>
+        <td>
+            {{ message.username }}
+        </td>
+        <td>
+            {{ message.age }}
+        </td>
+        <td>
+            {{ message.location }}
+        </td>
+        <td>
+           {{  message.centigrade }}
+        </td>
+        <td>
+            {{ message.ipone }}
+        </td>
+        <td>
+            {{ message.showtime }}
+        </td>
+    </tr>
+{% endfor %}
+<button type="button" style="width:100px;height:30px;"><a href={% url 'index' %}>首页</a></button>
+ <button type="button" id="sumbit" style="width:100px;height:30px;">发送</button>
+</div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $("#sumbit").click(function () {
+
+            $.get("{% url 'send_email' %}", {
+
+            }, function (ret) {
+                alert(ret)
+            })
+        });
+    });
+
+</script>
+
+</html>
+
